@@ -1,0 +1,115 @@
+body{
+
+
+    height: 700px;;
+
+      background-image: linear-gradient(to bottom,#228c61 200px, transparent );
+    
+   background-repeat: no-repeat;
+   
+    }
+
+    #krim{
+      height: 100px;
+      width: 100px;
+      background-color: aquamarine;
+      animation-name:moh;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;      
+
+    }
+    @keyframes moh{
+      0%{
+        translate: 0 0;
+        background-color: aquamarine;
+        rotate: 0;
+
+      }
+      25%{
+        translate: 0 620px;
+        background-color:aqua;
+        rotate: 90deg;
+      }
+      50%{
+        translate:1350px 620px;
+        background-color:blue;
+        rotate: 180deg;
+      }
+      75%{
+        translate: 1350px 0;
+        background-color:#34228c;
+        rotate: 280deg;
+      }
+      100%{
+        translate: 0 0;
+        background-color:blueviolet;
+        rotate: 90deg;
+      }
+    }
+    div,#krim:hover{
+      animation-play-state:running;
+      cursor: cell;
+    }
+
+
+.red{
+  background-color: red;
+height: 50px;
+width: 50px;
+}
+.blue{
+  background-color: blue;
+  height: 50px;
+width: 50px;
+position: relative;
+left:10px;
+top: 5px;
+}
+.lasfar{
+  background-color: bisque;
+  height: 50px;
+width: 50px;
+}
+#saif{
+  text-align: center;
+  vertical-align: bottom;
+  height: 80px;
+  width: 150px;
+  background-color: yellow;
+transition: 1s;
+
+}
+#saif:hover{
+  width: 50%;
+}
+.sed{
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+  .sed,div{
+    margin: 10px;
+    padding: 10px;
+    
+  }
+
+
+.sif1{
+  background-color: #34228c;
+}
+.sif2{
+  background-color: blue;
+
+}
+.sif3{
+  background-color: forestgreen;
+
+}
+.sif4{
+  background-color: darkgoldenrod;
+}
+
+/*.float{
+  float: left;
+}
